@@ -168,6 +168,11 @@ a {
     margin-bottom: 15px;
 }
 
+.reminders_container {
+    max-height: 75px;
+    overflow-y: scroll;
+}
+
 .leftSide_reminders li {
     list-style-type: none;
     padding-left: 20px;
@@ -268,6 +273,16 @@ a {
 }
 .top_element li:not(:last-child){
     margin-bottom: 10px;
+}
+
+.grades_container {
+    max-height: 75px;
+    overflow-y: scroll;
+}
+
+.career_container {
+    max-height: 75px;
+    overflow-y: scroll;
 }
 
 .rightSide_bottom {
